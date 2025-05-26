@@ -37,7 +37,7 @@ export default function AddContactForm({ onAdd }) {
     };
     onAdd(newContact);
     resetForm();
-    navigate('/contact');
+    navigate('/lesson_react/contact');
   };
 
   return (
@@ -60,7 +60,7 @@ export default function AddContactForm({ onAdd }) {
           <ErrorMessage name="phone" component="div" className="field-error" />
         </div>
         <button type="submit">{t.save}</button>
-        <Link to="/main">{t.home}</Link>
+        <Link to="/lesson_react/main">{t.home}</Link>
       </Form>
     </Formik>
   );
