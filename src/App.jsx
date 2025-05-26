@@ -44,7 +44,7 @@ function App() {
       <Header></Header>
      <BrowserRouter>
        <Routes>
-        <Route path="/" element={<LogPage onLogin={() => setIsAuth(true)}/>} />
+        <Route path="/lesson_react/" element={<LogPage onLogin={() => setIsAuth(true)}/>} />
          
          {isAuth && (
           <>
