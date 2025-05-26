@@ -22,6 +22,7 @@ export const translations = {
     delete: 'Видалити',
     save: 'Зберегти',
     fillAll: 'Заповніть всі поля!',
+    incorrectlog: 'Невiрний логiн або пароль',
     validation: {
       required: 'Це поле обов’язкове',
       min5: 'Мінімум 5 символів',
@@ -42,6 +43,7 @@ export const translations = {
     delete: 'Delete',
     save: 'Save',
     fillAll: 'Please fill all fields!',
+    incorrectlog: 'Incorrect login or password',
     validation: {
       required: 'This field is required',
       min5: 'Minimum 5 characters',
@@ -62,6 +64,7 @@ export const translations = {
     delete: 'Usuń',
     save: 'Zapisz',
     fillAll: 'Wypełnij wszystkie pola!',
+    incorrectlog: 'Nieprawidłowy login lub hasło',
     validation: {
       required: 'To pole jest wymagane',
       min5: 'Minimum 5 znaki',
