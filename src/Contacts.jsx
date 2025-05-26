@@ -10,7 +10,7 @@ function Contacts({ contacts, onDelete }) {
   return (
     <div className={`contact_container  ${theme}`}>
       <h2>{translations[language].list}</h2>
-      <Link to="/main">{translations[language].home}</Link>
+      <Link to="/lesson_react/main">{translations[language].home}</Link>
       <table>
         <thead>
           <tr>

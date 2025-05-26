@@ -10,7 +10,7 @@ return (
     <div>
         <p className="pr">{translations[language].main}</p>
         <nav>
-        <Link to="/contact">{translations[language].contacts}</Link> | <Link to="/add">{translations[language].add}</Link>
+        <Link to="/lesson_react/contact">{translations[language].contacts}</Link> | <Link to="/lesson_react/add">{translations[language].add}</Link>
       </nav>
     </div>
 )

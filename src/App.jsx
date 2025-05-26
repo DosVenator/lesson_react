@@ -48,9 +48,9 @@ function App() {
          
          {isAuth && (
           <>
-          <Route path="/main" element={<MainPage/>} />
-         <Route path="/add" element={<AddContactForm onAdd={addContact} />} />
-         <Route path="/contact" element={<Contacts contacts={contacts} onDelete={deleteContact} />} />
+          <Route path="/lesson_react/main" element={<MainPage/>} />
+         <Route path="/lesson_react/add" element={<AddContactForm onAdd={addContact} />} />
+         <Route path="/lesson_react/contact" element={<Contacts contacts={contacts} onDelete={deleteContact} />} />
          </>
          )}
        </Routes>

@@ -12,7 +12,7 @@ function LogPage({ onLogin }) {
   function GetLogIn() {
     if (login === "admin" && password === "admin") {
       onLogin();
-      navigate("/main");
+      navigate("/lesson_react/main");
     } else {
       alert(translations[language].incorrectlog);
     }
